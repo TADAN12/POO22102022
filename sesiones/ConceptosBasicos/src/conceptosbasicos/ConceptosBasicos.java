@@ -4,6 +4,8 @@
  */
 package conceptosbasicos;
 
+import ICO.FES.Lenovo.Procesador;
+
 /**
  *
  * @author alan
@@ -15,7 +17,9 @@ public class ConceptosBasicos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hola otra vez");
+        Procesador cpu= new Procesador();
+        cpu.setFrecuencia(5.2f);
+        System.out.println(cpu);
     }
     
 }
