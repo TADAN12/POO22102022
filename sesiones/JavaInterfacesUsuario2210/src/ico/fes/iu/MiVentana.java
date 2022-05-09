@@ -43,7 +43,7 @@ public class MiVentana extends Frame implements MouseListener{
     @Override
     public void mouseClicked(MouseEvent me) {
         System.out.println("clic");
-        etiqueta.setText("hola"+textoc.getText());
+        etiqueta.setText("hola "+textoc.getText());
         System.out.println(textoc.getText());
     }
 
