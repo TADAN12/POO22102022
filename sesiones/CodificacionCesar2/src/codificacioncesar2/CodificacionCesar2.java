@@ -17,11 +17,11 @@ public class CodificacionCesar2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        // CodificarTexto cc2=new CodificarTexto();
-        String a="80";
+         CodificarTexto cc2=new CodificarTexto();
+        /*String a="80";
         int b=Integer.parseInt(a);
         System.out.println(b);
- 
+        */ 
     }
     
 }
