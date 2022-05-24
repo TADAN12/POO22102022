@@ -6,7 +6,9 @@ package javainterfacesusuario2210;
 
 import ico.fes.iu.MiVentana;
 import ico.fes.iu.MiVentanavs2;
+import ico.fes.iu.swing.VentanaPersona;
 import ico.fes.iu.swing.VentanaSwing;
+import ico.fes.iu.swing.VentanaSwingV2;
 
 /**
  *
@@ -21,7 +23,8 @@ public class JavaInterfacesUsuario2210 {
         // TODO code application logic here
        // MiVentana ventana= new MiVentana();
        // MiVentanavs2 ventana2=new MiVentanavs2();
-        VentanaSwing vs=new VentanaSwing();
+       // VentanaSwingV2 vs=new VentanaSwingV2();
+        VentanaPersona p=new VentanaPersona();
     }
     
 }

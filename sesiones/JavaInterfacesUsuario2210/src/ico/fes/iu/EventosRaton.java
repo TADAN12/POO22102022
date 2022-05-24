@@ -4,6 +4,7 @@
  */
 package ico.fes.iu;
 
+import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
@@ -13,9 +14,11 @@ import java.awt.event.MouseListener;
  */
 public class EventosRaton implements MouseListener{
 
-    @Override
+   
+   @Override
     public void mouseClicked(MouseEvent me) {
         System.out.println("Hola, clic de raton");
+        System.out.println("---"+me);
     }
 
     @Override
@@ -36,6 +39,6 @@ public class EventosRaton implements MouseListener{
     @Override
     public void mouseExited(MouseEvent me) {
         System.out.println("El cursor salio del componente");    
-    }
+    } 
     
 }

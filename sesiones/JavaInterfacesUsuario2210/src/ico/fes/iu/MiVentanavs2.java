@@ -14,7 +14,6 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
@@ -27,7 +26,7 @@ public class MiVentanavs2 extends Frame {
     private FlowLayout layout;
     private TextField textoc;
     private Label etiqueta;
-    //private EventosRaton raton;
+    private EventosRaton raton;
     public MiVentanavs2() throws HeadlessException {
         setTitle("Mi ventana version 2");
         setSize(300,200);
@@ -36,7 +35,8 @@ public class MiVentanavs2 extends Frame {
         boton1=new Button("saludar");
         textoc=new TextField(15);
         etiqueta=new Label("valor inicial");
-       // raton=new EventosRaton();
+        //raton=new EventosRaton();
+        //raton.mouseClicked(me);
         this.boton1.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -72,6 +72,7 @@ public class MiVentanavs2 extends Frame {
         this.add(textoc);
         this.add(boton1);
         this.add(etiqueta);
+       // this.add(raton);
         setVisible(true);
             
     }

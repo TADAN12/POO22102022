@@ -33,6 +33,7 @@ public class MiVentana extends Frame implements MouseListener{
         etiqueta=new Label("valor inicial");
        // raton=new EventosRaton();
         this.boton1.addMouseListener(this);
+      //  this.etiqueta.addMouseListener(this);
         this.add(textoc);
         this.add(boton1);
         this.add(etiqueta);
@@ -40,11 +41,12 @@ public class MiVentana extends Frame implements MouseListener{
             
     }
 
-    @Override
+  @Override
     public void mouseClicked(MouseEvent me) {
         System.out.println("clic");
         etiqueta.setText("hola "+textoc.getText());
         System.out.println(textoc.getText());
+        System.out.println("--"+me+"--");
     }
 
     @Override
